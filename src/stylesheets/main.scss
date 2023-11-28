@@ -5,10 +5,17 @@
 body {
   background-color: rgb(46, 41, 41);
 }
+
+header {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
 .navbar {
   height: 90px;
   background-color: rgb(46, 41, 41);
-
+  border-bottom: 5px solid white;
   li {
     color: white;
     list-style: none;
@@ -27,14 +34,9 @@ h2 {
 }
 
 .jumbo {
-  background-image: url("https://images.unsplash.com/photo-1494783367193-149034c05e8f?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cm9hZHxlbnwwfHwwfHx8MA%3D%3D");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: 0px;
-  background-attachment: fixed;
-  height: 500px;
-  //   border-top: 10px red solid;
   display: block;
+  margin-top: 50px;
+  margin-bottom: 100px;
   p {
     text-align: center;
     margin-left: 500px;
@@ -57,6 +59,9 @@ h2 {
     display: inline;
     padding: 15px;
     font-size: 80px;
+  }
+  img {
+    margin-right: 20px;
   }
 
   div {
@@ -95,6 +100,7 @@ h2 {
 // .carousel
 
 .photos {
+  margin-top: 100px;
   background-color: rgb(46, 41, 41);
 }
 
@@ -105,8 +111,8 @@ h2 {
 }
 
 .carousel {
-  width: 100vw;
-  height: 100vh;
+  width: 90%;
+  height: 90vh;
   position: relative;
 }
 
@@ -116,14 +122,14 @@ h2 {
   opacity: 0;
   transition: 200ms opacity ease-in-out;
   transition-delay: 200ms;
-  p {
-    color: white;
-  }
+
+  margin-bottom: 200px;
 }
 
 .slide > img {
   width: 100%;
-  height: 90%;
+  height: 100%;
+  margin-left: 5%;
   display: block;
   object-fit: cover;
   object-position: center;
@@ -131,8 +137,10 @@ h2 {
 
 .slide {
   p {
+    color: white;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 20%;
+    margin-bottom: 50px;
     font-size: 50px;
   }
 }
@@ -148,14 +156,14 @@ h2 {
   background: none;
   border: none;
   font-size: 4rem;
-  z-index: 2;
-  transform: translate(-50%);
+  z-index: 4;
+  transform: translate(55%);
   color: black;
   cursor: pointer;
   border-radius: 0.25rem;
   padding: 1rem;
   background-color: white;
-  margin-top: 15%;
+  margin-top: 25%;
   margin-left: 50px;
 }
 
@@ -176,21 +184,10 @@ h2 {
   right: 1rem;
 }
 
-// footer
-
-footer {
-  margin-bottom: 80px;
-  h2 {
-    padding-bottom: 10px;
-  }
-  h3 {
-    color: white;
-    padding-top: 5px;
-  }
-  .left {
-    margin-top: 15px;
-    input {
-      margin-top: 15px;
-    }
+button {
+  margin-left: 50%;
+  margin-bottom: 100px;
+  a {
+    text-decoration: none;
   }
 }
