@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+    <link rel="stylesheet" href="./stylesheets/services.scss" />
+    <script src="./javascripts/main.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li>Paving The Way</li>
+      </ul>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="photos" id="work">
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev"><i class="bi bi-arrow-left"></i></button>
+        <button class="carousel-button next" data-carousel-button="next"><i class="bi bi-arrow-right"></i></button>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <p>Asphalt Work</p>
+            <img src="./pictures/asphalt.avif" alt="" />
+          </li>
+
+          <li class="slide">
+            <p>Dirt Work</p>
+            <img src="./pictures/excavator.avif" alt="" />
+          </li>
+          <li class="slide">
+            <p>Asphalt Patching</p>
+            <img src="./pictures/patch.jpg" alt="" />
+          </li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-outline-primary btn-lg"><a href="contact.html">Get Quote Now</a></button>
+    </section>
+  </body>
+</html>
